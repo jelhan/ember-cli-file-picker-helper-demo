@@ -1,0 +1,11 @@
+{{outlet}}
+
+{{#file-picker fileLoaded='fileLoaded' readAs='readAsText'}}
+  Drag here or click to upload a file
+{{/file-picker}}
+
+{{#if content}}
+  <p class='content'>
+    {{content}}
+  </p>
+{{/if}}
