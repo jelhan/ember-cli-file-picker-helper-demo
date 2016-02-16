@@ -1,6 +1,6 @@
 {{outlet}}
 
-{{#file-picker fileLoaded='fileLoaded' readAs='readAsText'}}
+{{#file-picker fileLoaded=(action 'fileLoaded' passThrough) readAs='readAsText'}}
   Drag here or click to upload a file
 {{/file-picker}}
 
